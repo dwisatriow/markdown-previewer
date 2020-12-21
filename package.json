@@ -12,8 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^9.0.1",
+    "marked": "^1.2.7",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-html-parser": "^2.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
