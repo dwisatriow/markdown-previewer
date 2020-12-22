@@ -1,33 +1,29 @@
 import React from 'react';
-import marked from 'marked';
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import './App.css';
+import Header from './components/Header.js';
+import Editor from './components/Editor.js';
+import Footer from './components/Footer.js';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mdText: ""
+      md: ""
     };
 
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
-    this.setState({ mdText: event.target.value});
+    this.setState({ md: event.target.value});
   }
 
   render() {
-    const htmlText = marked(this.state.mdText);
-
     return (
       <div>
-        <form>
-          <label>Editor</label><br />
-          <textarea id="editor" value={this.state.mdText} onChange={this.handleChange} />
-        </form>
-        <div id="preview">
-          {ReactHtmlParser(htmlText)}
-        </div>
+        <Header />
+        <Editor md={this.state.md} handleChange={this.handleChange} />
+        <Footer />
       </div>
     );
   }
