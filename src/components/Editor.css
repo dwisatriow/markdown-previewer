@@ -1,0 +1,67 @@
+#editor-previewer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#editor-container {
+  width: 600px;
+  height: 420px;
+  background: #465963;
+  border-radius: 4px;
+}
+
+#editor-container h2 {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 32px;
+  color: #BDCAD1;
+  background: #3B4C54;
+  border-radius: 4px 4px 0px 0px;
+}
+
+#editor {
+  width: 555px;
+  height: 325px;
+
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  color: #BDCAD1;
+
+  background: #465963;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  
+  /* overflow: auto; */
+  /* outline: none; */
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+
+#preview-container {
+  width: 600px;
+  height: 420px;
+  background: #A0BAC7;
+  border-radius: 4px;
+}
+
+#preview-container h2 {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 32px;
+  color: #2F4550;
+  background: #8FADBD;
+  border-radius: 4px 4px 0px 0px;
+}
+
+#preview {
+  width: 555px;
+  height: 325px;
+
+  /* all: initial; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #2F4550;
+}

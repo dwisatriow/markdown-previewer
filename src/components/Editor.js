@@ -1,19 +1,22 @@
 import React from 'react';
 import marked from 'marked';
-import ReactHtmlParser from 'react-html-parser';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import './Editor.css';
 
 function Editor(props) {
   const html = marked(props.md);
 
   return (
-    <div>
-      <form>
-        <label>Editor</label><br />
+    <div id="editor-previewer" className="col">
+      <div id="editor-container">
+        <h2>Editor</h2>
         <textarea id="editor" value={props.md} onChange={props.handleChange} />
-      </form>
-      <div id="preview">
-        {ReactHtmlParser(html)}
+      </div>
+      <div id="preview-container">
+        <h2>Preview</h2><br />
+        <div id="preview">
+          {ReactHtmlParser(html)}
+        </div>
       </div>
     </div>
   )

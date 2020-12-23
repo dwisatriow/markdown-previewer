@@ -1,0 +1,12 @@
+header {
+  height: 63px;
+  background-color: #344B56;
+  border-radius: 4px;
+}
+
+h1 {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 48px;
+  color: #B9E5FB;
+  margin: 0 140px;
+}

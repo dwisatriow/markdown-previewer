@@ -20,7 +20,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="app">
         <Header />
         <Editor md={this.state.md} handleChange={this.handleChange} />
         <Footer />
