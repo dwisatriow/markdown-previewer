@@ -7,16 +7,16 @@ import freecodecampIcon from '@iconify-icons/simple-icons/freecodecamp';
 
 function Footer() {
   return (
-    <footer>
-      <div>
+    <footer id="app-footer" className="fixed-bottom">
+      <div id="profile-link">
         <a href="https://codepen.io/dwisatriow" target="_blank">
-          <Icon icon={codepenIcon} />
+          <Icon icon={codepenIcon} width="28px" height="28px" />
         </a>
         <a href="https://github.com/dwisatriow" target="_blank">
-          <Icon icon={githubIcon} />
+          <Icon icon={githubIcon} width="28px" height="28px" />
         </a>
         <a href="https://www.freecodecamp.org/dwisatriow" target="_blank">
-          <Icon icon={freecodecampIcon} />
+          <Icon icon={freecodecampIcon} width="32px" height="32px" />
         </a>
       </div>
       <p>Developed by Dwi Satrio W. for freeCodeCamp</p>

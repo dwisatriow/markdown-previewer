@@ -1,0 +1,33 @@
+#app-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #BBCFDD;
+}
+
+#profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 104px;
+}
+
+#profile-link > a {
+    display: flex;
+    align-items: center;
+    color: #BBCFDD;
+}
+
+#profile-link > a:hover  {
+    color: #9eafbb;
+}
+
+#app-footer > p {
+    font-family: Ruda, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}

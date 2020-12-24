@@ -1,12 +1,18 @@
-header {
-  height: 63px;
+#app-header {
+  padding: 12px 26px;
+  width: 360px;
+  height: 62px;
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: #344B56;
   border-radius: 4px;
 }
 
-h1 {
-  font-family: 'Annie Use Your Telescope', cursive;
-  font-size: 48px;
+#app-header > h1 {
+  font-family: Ruda, sans-serif;
+  font-size: 32px;
+  line-height: 39px;
   color: #B9E5FB;
-  margin: 0 140px;
 }

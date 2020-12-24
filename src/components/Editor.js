@@ -16,6 +16,7 @@ function Editor(props) {
         <h2>Preview</h2><br />
         <div id="preview">
           {ReactHtmlParser(html)}
+          {/* {html} */}
         </div>
       </div>
     </div>
