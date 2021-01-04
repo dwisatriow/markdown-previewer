@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from './components/Header.js';
 import Editor from './components/Editor.js';
 import Footer from './components/Footer.js';
