@@ -1,20 +1,17 @@
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-
 #editor-previewer {
-  height: 900px;
   margin-top: 26px;
   margin-bottom: 26px;
 }
 
+#container-wrapper {
+  height: 420px;
+}
+
 #editor-container {
   position: relative;
-  // height: 420px;
+  height: 100%;
   background: #465963;
   border-radius: 4px;
-  // margin-bottom: 26px;
 }
 
 #editor-container > h2 {
@@ -54,7 +51,7 @@ $xl: 1200px;
 
 #preview-container {
   position: relative;
-  // height: 420px;
+  height: 100%;
   background: #A0BAC7;
   border-radius: 4px;
 }
@@ -81,12 +78,11 @@ $xl: 1200px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #2F4550;
-
+  
   overflow: auto;
-
+  
   position: relative;
-  bottom: 32px;
-
+  bottom: 8px;
+  
   scrollbar-width: thin;
-
 }
