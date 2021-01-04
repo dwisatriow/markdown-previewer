@@ -1,12 +1,19 @@
+$breakpoint-xs: 575px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
 #editor-previewer {
   display: flex;
+  flex-direction: column;
+  @media (min-width: $breakpoint-sm) { flex-direction: row; }
   align-items: center;
   justify-content: space-evenly;
 }
 
 #editor-container {
   position: relative;
-  width: 600px;
   height: 420px;
   background: #465963;
   border-radius: 4px;
@@ -49,7 +56,6 @@
 
 #preview-container {
   position: relative;
-  width: 600px;
   height: 420px;
   background: #A0BAC7;
   border-radius: 4px;

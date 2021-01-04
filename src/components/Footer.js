@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 import { Icon } from '@iconify/react';
 import codepenIcon from '@iconify-icons/ant-design/codepen-outlined';
 import githubIcon from '@iconify-icons/ant-design/github-filled';
