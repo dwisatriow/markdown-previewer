@@ -7,7 +7,7 @@ import freecodecampIcon from '@iconify-icons/simple-icons/freecodecamp';
 
 function Footer() {
   return (
-    <footer id="app-footer" className="fixed-bottom">
+    <footer id="app-footer">
       <div id="profile-link">
         <a href="https://codepen.io/dwisatriow" target="_blank">
           <Icon icon={codepenIcon} width="28px" height="28px" />

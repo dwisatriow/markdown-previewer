@@ -1,22 +1,20 @@
-$breakpoint-xs: 575px;
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-$breakpoint-xl: 1200px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 #editor-previewer {
-  display: flex;
-  flex-direction: column;
-  @media (min-width: $breakpoint-sm) { flex-direction: row; }
-  align-items: center;
-  justify-content: space-evenly;
+  height: 900px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 #editor-container {
   position: relative;
-  height: 420px;
+  // height: 420px;
   background: #465963;
   border-radius: 4px;
+  // margin-bottom: 26px;
 }
 
 #editor-container > h2 {
@@ -56,7 +54,7 @@ $breakpoint-xl: 1200px;
 
 #preview-container {
   position: relative;
-  height: 420px;
+  // height: 420px;
   background: #A0BAC7;
   border-radius: 4px;
 }
