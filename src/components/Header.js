@@ -3,7 +3,7 @@ import './Header.scss';
 
 function Header() {
   return (
-    <header id="app-header" className="fixed-top">
+    <header id="app-header">
       <h1>Markdown Previewer</h1>
     </header>
   )
