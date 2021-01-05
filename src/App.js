@@ -20,11 +20,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    let formattedText = "";
-    for (const line in placeholderText) {
-      formattedText = formattedText.concat(placeholderText[line]+"\n");
-    }
-    this.setState({ md: formattedText});
+    this.setState({ md: placeholderText});
   }
 
   render() {

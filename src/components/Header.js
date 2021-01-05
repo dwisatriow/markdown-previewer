@@ -3,9 +3,13 @@ import './Header.scss';
 
 function Header() {
   return (
-    <header id="app-header">
-      <h1>Markdown Previewer</h1>
-    </header>
+    <div className="container">
+      <div className="row no-gutters d-flex justify-content-md-start justify-content-lg-center">
+          <header id="app-header" className="my-5 my-lg-4">
+            <h1>Markdown Previewer</h1>
+          </header>
+      </div>
+    </div>
   )
 }
 
