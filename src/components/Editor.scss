@@ -1,5 +1,4 @@
 #editor-previewer {
-  margin-top: 26px;
   margin-bottom: 26px;
 }
 
@@ -18,7 +17,7 @@
   display: flex;
   align-items: center;
 
-  height: 60px;
+  height: 50px;
   padding-left: 20px;
   font-family: Ruda, sans-serif;
   font-size: 24px;
@@ -29,7 +28,7 @@
 
 #editor {
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 50px);
   padding: 12px 20px;
 
   font-family: 'Source Code Pro', monospace;
@@ -60,7 +59,7 @@
   display: flex;
   align-items: center;
 
-  height: 60px;
+  height: 50px;
   padding-left: 20px;
   font-family: Ruda, sans-serif;
   font-size: 24px;
@@ -72,7 +71,7 @@
 
 #preview {
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 50px);
   padding: 12px 20px;
   
   font-family: 'Open Sans', sans-serif;
