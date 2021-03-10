@@ -15,11 +15,11 @@ function Footer() {
         <a href="https://github.com/dwisatriow" target="_blank">
           <Icon icon={githubIcon} width="28px" height="28px" />
         </a>
-        <a href="https://www.freecodecamp.org/dwisatriow" target="_blank">
+        <a href="https://forum.freecodecamp.org/u/dwisatriow" target="_blank">
           <Icon icon={freecodecampIcon} width="32px" height="32px" />
         </a>
       </div>
-      <p>Developed by Dwi Satrio W. for freeCodeCamp</p>
+      <p>Developed by Dwi Satrio W.</p>
     </footer >
   )
 }
