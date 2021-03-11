@@ -8,4 +8,5 @@ The app is using using [marked](https://github.com/markedjs/marked) to parse the
 - `npm start` - run the app in the development mode.
 - `npm run build` - builds the app for production to the `build` folder.
 
+\
 **Thanks to [freeCodeCamp](https://www.freecodecamp.org/) for the detailed user stories guide to built these projects.**
