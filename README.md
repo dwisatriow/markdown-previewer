@@ -1,5 +1,5 @@
 # Markdown Previewer
-An app that will render your markdown text into a nicely formatted writings.  
+A markdown previewer that will render your markdown text into a nicely formatted writings.  
 Built with [React](https://reactjs.org/), on top of `minimal-reactjs-boilerplate` by [Nikhil-Kumaran](https://github.com/Nikhil-Kumaran).  
 The app is using using [marked](https://github.com/markedjs/marked) to parse the text and [react-html-parser](https://github.com/wrakky/react-html-parser) to convert the output html into React components.
 
